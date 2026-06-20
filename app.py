@@ -1,17 +1,12 @@
 import streamlit as st
 
 from src.classifier import classify_persona
-from src.rag_pipeline import search_documents
+from src.rag_pipeline import search_documents, store_embeddings
 from src.generator import generate_adaptive_response
 from src.escalator import (
     should_escalate,
     generate_handoff
 )
-from src.rag_pipeline import
-store_embeddings
-
-store_embeddings()
-
 st.set_page_config(
     page_title="Persona Support Agent"
 )
