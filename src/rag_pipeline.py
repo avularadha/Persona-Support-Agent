@@ -132,7 +132,7 @@ def search_documents(query):
         n_results=2
     )
 
-    return results["documents"][0]
+    return results
 
 def generate_answer(query):
 
