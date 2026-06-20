@@ -7,6 +7,10 @@ from src.escalator import (
     should_escalate,
     generate_handoff
 )
+from src.rag_pipeline import
+store_embeddings
+
+store_embeddings()
 
 st.set_page_config(
     page_title="Persona Support Agent"
